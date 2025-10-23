@@ -19,10 +19,10 @@ public class App {
 			}
 		} while (!correcto);
 
-		int res = 1;
+		double res = 1;
 		for (int i = 1; i <= exp; i++) {
 			res *= base;
-			System.out.printf("%d^%d = %d%n", base, i, res);
+			System.out.printf("%d^%d = %.2f%n", base, i, res);
 		}
     }
 }
